@@ -1,0 +1,13 @@
+{
+  "name": "solana-whale-tracker",
+  "version": "1.0.0",
+  "description": "Solana whale tracker for the terminal: big buys and sells on any token, net flow, and the wallets buying or dumping the most.",
+  "type": "module",
+  "bin": { "whales": "bin/whales.js" },
+  "scripts": { "start": "node bin/whales.js", "test": "node --test" },
+  "engines": { "node": ">=22" },
+  "keywords": ["solana", "whale-tracker", "whale-alert", "smart-money", "memecoin", "pump-fun", "large-trades", "net-flow", "geckoterminal", "on-chain"],
+  "homepage": "https://blixvip.com/solana-whale-tracker",
+  "repository": { "type": "git", "url": "git+https://github.com/blixtrade/solana-whale-tracker.git" },
+  "license": "MIT"
+}
